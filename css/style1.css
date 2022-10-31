@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, tahoma, sans-serif;
+}
+
+/* Common */
+
+.modal-container-all {
+    width: 800px;
+    margin: 40px 0 63px 0;
+    padding: 15px 35px 20px 35px;
+    animation: modalFaceIn ease .5s;
+    background-color: #fff;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.button-shadow:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.ctn {
+    max-width: calc(100% - 100px);
+}
+
+.boder-radius {
+    border-radius: 3px;
+}
+
+/* End Common */
+
+/* Modal */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+}
+
+.open {
+    display: flex;
+}
+
+.close {
+    display: none;
+}
+
+.modal-container {
+    position: relative;
+}
+
+.modal-container .modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px;
+}
+
+.modal-container .modal-close:hover {
+    color: #ccc;
+}
+
+.modal-sign-in-1 {
+    display: inline-block;
+}
+
+.modal-sign-in-1 .modal-label {
+    height: 38px;
+    line-height: 38px;
+}
+
+.modal-sign-in-1 .modal-input {
+    margin-bottom: 10px;
+    padding: 12px 10px 12px 10px;
+    width: 100%;
+    border: 1px #ccc solid;
+    outline: none;
+}
+
+.eye {
+    position: absolute;
+    right: 13px;
+    top: 14px;
+}
+
+.eye:hover {
+    color: #ccc;
+}
+
+.modal-sign-in-1 .modal-remember {
+    padding: 15px 0;
+}
+
+.modal-sign-in-1 .modal-forgot-password {
+    float: right;
+    color: #007bff;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.modal-sign-in-1 .modal-sign-in {
+    padding: 17px 0;
+    border: none;
+    color: #fff;
+    background-color: #0052aa;
+    font-size: 16px;
+    font-weight: 700;
+    width: 168px;
+    text-align: center;
+    float: right;
+}
+
+.modal-sign-in-2 {
+    float: right;
+}
+
+.modal-sign-in-2 .label-social {
+    height: 38px;
+    line-height: 38px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-sign-in-2 i {
+    margin-right: 5px;
+}
+
+.modal-sign-in-2 .modal-button-social-all {
+    padding-left: 46px;
+    margin-top: 8px;
+}
+
+.modal-sign-in-2 .button-social {
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    height: 50px;
+}
+
+.google {
+    background-color: #ee402d;
+
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-top: 16px;
+}
+
+.to-register {
+    display: flex;
+    font-size: 13px;
+    margin-top: 24px;
+    justify-content: center;
+}
+
+.to-register a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+@keyframes modalFaceIn {
+    from {
+        opacity: 0;
+        transform: translateY(-250px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* End Modal */

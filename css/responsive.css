@@ -1,0 +1,103 @@
+/* PC */
+@media (min-width: 1024px) {}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px) {
+    /* Modal 1 */
+        
+
+    /* Modal 3 */
+    .input {
+        width: 96%;
+    }
+
+    select{
+        width: 94%;
+    }
+
+    #address{
+        width: 98%;
+    }
+
+    .btn-res{
+        width: 200px !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    /* Modal 1 */
+    .col-half{
+        width: auto;
+        float: none;
+    }
+    .ctn{
+        max-width: calc(100% - 10px);
+        width: auto;
+    }
+    .modal-sign-in-1 .modal-remember{
+        padding: 0;
+    }
+    .modal-sign-in-1 .modal-sign-in{
+        width: 100%;
+        padding: 12px 0;
+        margin-top: 15px;
+    }
+    .modal-sign-in-2 .modal-button-social-all{
+        padding: 0;
+        margin: 0;
+    }
+
+    .modal-sign-in-2 .button-social{
+        height: 42px;
+    }
+    /* Modal 2 */
+    .modal-form-input2{
+        width: auto;
+    }
+    .modal-input2{
+        min-width: auto;
+    }
+
+    /* Modal 3 */
+    .input {
+        width: 96%;
+    }
+    select {
+       width: 87%;
+    }
+    #address{
+        width: 96%;
+    }
+    .specialcheck label{
+        line-height: normal;
+    }
+    .modal-submit{
+        padding: 12px 0;
+        width: 100%;
+        margin-bottom: 0;
+        margin-bottom: 10px;
+    }
+    .modal-sign-in-3 .button-social{
+        width: 100%;
+        margin: 0;
+    
+        margin-top: 10px;
+    }
+    .modal-sign-in-3 label{
+        padding: 0;
+    }
+    .label-sign-in{
+        display: none;
+    }
+    .checkmark{
+        margin-top: 13px;
+    }
+    .eye2{
+        right: 35px;
+        top: 52px;
+    }
+    .register-title h3{
+        font-size: 18px;
+    }
+}

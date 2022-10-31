@@ -1,0 +1,302 @@
+/* Modal */
+.color {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.red {
+    color: red;
+}
+
+.open {
+    display: flex;
+}
+
+.close {
+    display: none;
+}
+
+.modal-container-3 {
+    width: 800px;
+    margin: 40px 0 63px 0;
+    padding: 15px 35px 20px 35px;
+    background-color: #58595b;
+}
+
+.modal-new-3{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #f3f5f7;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-container3 {
+    background: #fff;
+    padding-bottom: 30px;
+    position: relative;
+    /* text-align: center; */
+}
+
+.modal-form-input3 {
+    width: 368px;
+    margin: 0 auto;
+}
+
+.modal-label3 {
+    height: 38px;
+    line-height: 38px;
+    display: block;
+}
+
+.modal-input3 {
+    min-width: 364px;
+    min-height: 16px;
+    padding: 12px 10px 12px 10px;
+    border: 1px #ccc solid;
+    outline: none;
+}
+
+.modal-back-to-sign-in3 {
+    display: block;
+    font-size: 13px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #007bff;
+    text-align: right;
+}
+
+.back-to-sign-in {
+    position: relative;
+    padding: 20px 0;
+}
+
+.back-to-sign-in a {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.modal-back-to-sign-in3 i {
+    margin-right: 5px;
+}
+
+.modal-send {
+    padding: 17px 0;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: #0052aa;
+    font-size: 16px;
+    font-weight: 700;
+    width: 168px;
+    text-align: center;
+}
+
+.modal-send:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* End Modal */
+
+.text-input {
+    font-size: 14px;
+}
+
+#men,
+#women {
+    margin-right: 3px;
+}
+
+#women {
+    margin-left: 25px;
+}
+
+.col-half {
+    width: 50%;
+    float: left;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.list {
+    position: relative;
+}
+
+.col-thirt {
+    width: calc(100%/3);
+    float: left;
+}
+
+.modal-label-all {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+}
+
+.input {
+    padding: 12px 10px 12px 10px;
+    width: 350px;
+    height: 42px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 14px;
+}
+
+#address {
+    width: 715px;
+}
+
+.thanhpho {
+    height: 38px;
+    line-height: 38px;
+    display: flex;
+}
+
+.color-in{
+    color: #58595b;
+}
+
+.filterprice {
+    font-size: 13px;
+}
+
+select {
+    width: calc(684px/3);
+    height: 42px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 14px;
+    color: #58595b;
+}
+
+.specialcheck label{
+    height: 38px;
+    line-height: 38px;
+}
+
+.label-sign-in{
+    position: absolute;
+    right: 0;
+    margin-right: 35px;
+}
+
+.modal-submit {
+    padding: 17px 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    color: #fff;
+    background-color: #0052aa;
+    font-size: 16px;
+    font-weight: 700;
+    width: 168px;
+    text-align: center;
+}
+
+.modal-submit:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.modal-sign-in-3{
+    text-align: center;
+}
+
+.modal-sign-in-3 label{
+    text-align: center;
+    padding: 15px 0 20px 0;
+}
+
+.modal-sign-in-3 .button-social {
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    width: 300px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.modal-sign-in-3 .button-social:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked~.checkmark {
+    background-color: #ccc;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #007bff;
+}
+
+.eye2{
+    position: absolute;
+    right: 28px;
+    top: 51px;
+}
+
+.eye2:hover{
+    color: #ccc;
+}
+.register-title h3{
+    text-align: center;
+    font-size: 28px;
+    color: rgb(213, 14, 14);
+}

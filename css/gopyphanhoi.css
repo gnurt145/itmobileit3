@@ -1,0 +1,134 @@
+body{
+    font-family:Arial,Tahoma,sans-serif;
+}
+.feedback_content h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+section{
+    display: block;
+}
+.content{
+    background: color #f8f9fa;
+    margin: 0 auto;
+    width: 100%;
+}
+.max_width{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.feedback_wrap{
+    padding: 25px 0 65px;
+}
+.feedback_content{
+    background-color: #fff;
+    padding: 30px 122px;
+    color:#333;
+    font-size: 14px;
+}
+.feedback_content p{
+    margin-bottom: 12px;
+}
+.contact_form input, .contact_form textarea{
+    width:100%;
+    box-sizing: border-box;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    outline:none;
+    padding: 12px;
+}
+.feedback_form{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (min-width: 768px){
+    .feedback_form-left,.feedback_form-right{
+        width:100%;
+        margin: 0 15px;
+    }
+}
+@media (min-width:1024px){
+    .feedback_form-left,.feedback_form-right{
+        width:100%;
+        margin: 0 15px;
+    }
+}
+@media (max-width: 739px) {
+    .feedback_form{
+        display: flex;
+        flex-direction: column;
+    }    
+    .feedback_content{
+        background-color: #fff;
+        padding: 20px 30px;
+        color:#333;
+        font-size: 14px;
+    }
+}
+.feedback_group{
+    margin-bottom:22px;
+    margin-top:25px;
+}
+.feedback_send p{
+    font-size:16px;
+}
+.contact_form label{
+    display: block;
+    font-size: 14px;
+    font-weight:700;
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
+label{
+    cursor: default;
+
+}
+.feedback_select{
+    position: relative;
+    display: flex;
+    align-items:center;
+}
+.feedback_upload{
+    font-size: 14px;
+    color: #007bff;
+    background-color: #f5f5f5;
+    border: 1px solid #ebebeb;
+    display: inline-block;
+    padding:11px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.feedback_button{
+    margin-left: 10px;
+}
+.feedback_send{
+    width:100%;
+    text-align: center;
+}
+.feedback_send button{
+    max-width: 170px;
+    margin: 5px auto 0;
+    border:none;
+    background-color: #0052aa;
+    font-size: 18px;
+    color:#fff;
+    padding: 17px 0;
+    cursor: pointer;
+}
+.feedback_send button:hover{
+    background-color:#007bff;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}

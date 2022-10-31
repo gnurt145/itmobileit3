@@ -1,0 +1,491 @@
+.boxdownapp_menu nav{
+    background-color: #000000;
+    width:100%;
+    z-index: 1;
+}
+.boxdownapp_menu nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_fixed{
+    max-width: 1190px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+
+}
+.nav{
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+    padding:0 0 0 0;
+    border-color: white;
+    border-width: 5px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+li, ul{
+    list-style: none;
+}
+.boxdownapp_menu nav ul li{
+    padding: 5px 5%;
+}
+.boxdownapp_menu nav ul li a{
+    font-family: San-Francisco-bold;
+    color:#fff;
+    font-size: 18px;
+    text-transform: bold;
+}
+.boxdownapp_menu nav ul li a:hover{
+    color:yellow;
+}
+body{
+    font-family: Arial, Tahoma, sans-serif;
+}
+body, html{
+    scroll-behavior: smooth;
+}
+.content{
+    background-color:#f3f5f7;
+    margin: 0 auto;
+}
+.content{
+    width: 100%;
+}
+.boxdownapp_menu{
+    width:100%;
+    overflow:hidden;
+    text-align: center;
+}
+.pt_2_dv{
+    padding-top:2%;
+}
+.boxdownapp_ctent{
+    overflow: hidden;
+    padding-bottom:2%;
+}
+.boxdownapp_menu h1{
+    font-family: San-Francisco-bold;
+    font-size: 36px;
+    color:#333;
+    font-weight:700;
+    margin: 15px 0 15px;
+}
+.pr_app{
+    font-family: San-Francisco-light;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 76%;
+    text-align: center;
+    margin: 20px auto 30px
+}
+.pr_app_slider{
+    border-left:none;
+}
+.owl-carousel{
+    border: none;
+    position: relative;
+    width:100%;
+    display: none;
+}
+.owl-carousel, .owl-wrapper-outer{
+    overflow: hidden;
+    width:100%
+}
+
+.owl-carousel .owl-item{
+    position: relative;
+    min-height: 1px;
+    float:left;
+}
+.owl-item{
+    margin:0 12px;
+    padding:50px 25px 25px;
+    height:100%;
+}
+.lazy{
+    height: 80px;
+    margin: 10px auto;
+}
+.owl-item{
+    display: flex;
+}
+div .slick-track{
+    background-color:#f8f9fa
+}
+.slick-dots{
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,15px);
+    display:flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+.slick-dots button{
+    font-size: 0;
+    width: 12px;height: 12px;
+    border-radius:1rem;
+    background-color: #0052aa;
+    border:none;
+    cursor: pointer;
+    outline:none;
+    transition: all 0.2s linear;
+}
+.slick-dots .slick-active button{
+    background-color: rgb(35, 132, 167)
+}
+.tabcontent{
+    display: none;
+    border-top:none;
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    background-color:#666f77;
+    color:#fff;
+    font-size: 30px;
+}
+.tab button{
+    background-color:inherit;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding:10px 15px;
+    transition: 0,5s;
+}    
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide_on_pc{
+         display:none;
+        }
+    .left_mobile{
+        display:flex;
+        flex-direction: row;
+    }    
+    .use_on_mobile{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .boxapp_uudai_right p{
+        width: 100%;
+    }
+    .boxapp_uudai_right{
+        margin:auto;
+    }
+    .chplay{
+        width:100%;
+        max-height:150px;
+    }
+    .appstore{
+        width: 100%;
+        max-height: 170px;
+    }
+    .chplay{
+        margin-top: 18px;
+    }
+    .appstore{
+        margin-top:9px;
+    }
+}
+@media (min-width:1024px){
+    .hide_on_pc{
+        display:none;
+    }
+}
+@media (max-width: 739px) {
+    .boxapp_uudai_outer{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .boxdownapp_menu nav ul li a{
+        font-size: 13px;
+    }
+    .lazy{
+        height: 31%;;
+        margin:0 auto;
+    }
+    .boxdownapp_menu h1{
+        font-size: 24px;
+    }
+    .boxapp_uudai h2{
+        font-size: 24px;
+    }
+    .loaded{
+        height: 50%;
+    }
+    .boxdownapp_menu ul li{
+        margin: 0 auto;
+    }
+    .boxdownapp_menu ul li a{
+        text-align: justify;
+        font-size: 8px;
+    }
+    .pr_app{
+        width:100%;
+        font-size: 25px;
+        font-weight: 100;
+        text-align: justify;
+    }
+    .owl-item{
+        margin:0 auto;
+    }
+    .boxapp_uudai_right p{
+        width: 100%;
+    }
+    .slick-dots{
+        position:absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-60%,15px);
+        display:flex !important;
+        align-items: center;
+        justify-content: center;
+        gap: 10px
+    }    
+    .boxdownapp_menu nav ul li{
+        padding: 5px 5px;
+    }    
+    .strong-hide{
+        display:none;
+    }
+    .hide_on_mobile{
+        display:none;
+    }
+    .hiden_on_pc{
+        display:flex;
+    }
+    .left{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-top:15px;
+        padding-right:10px;
+    }
+    .outer{
+        width:100%;
+    }
+    .left img{
+        max-width:50%;
+    }
+    .right ul{
+       padding:15px 0;
+    }
+    .right ul li{
+        margin: 5px 15px;
+        align-items:center;
+        display:flex;
+        padding:15px;
+        font-weight: 500;
+    }
+    .boxdownapp_menu{
+        width:100%;
+        overflow:hidden;
+        text-align: left;
+    }
+    span{
+       vertical-align: middle;
+    }
+    .left_mobile img{
+        width: 100%;
+    }
+    .chplay{
+        max-height: 69px;
+    }
+    .appstore{
+        max-height: 74px;
+    }
+    .use_on_mobile{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left_mobile{
+        display:flex;
+        flex-direction: row;
+    }
+    .tabcontent{
+        font-size: 20px;
+    }
+    .tab button{
+        background-color:inherit;
+        border:none;
+        outline: none;
+        cursor: pointer;
+        transition: 0,5s;
+        padding:0 0 0 0;
+    }
+    .left p{
+        text-align: justify;
+        
+    }
+    .lazy {
+        padding-bottom: 15px;
+        align-items:center;
+    }
+   
+}
+
+.bg_gray{
+    background-color: #f8f9fa;
+    padding-top:2%;
+}
+.boxapp_uudai h2{
+    font-family: San-Francisco-bold;
+    font-size:36px;
+    color:#333;
+    font-weight: 700;
+    margin: 15px 0 15px
+}
+.boxapp_uudai_left{
+    width:45%;
+    float: left;
+}
+.boxapp_uudai_left img{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top:5%;
+}
+.boxapp_uudai_right {
+    width: 50%;
+    float: left;
+    font-size: 20px;
+}    
+.boxapp_uudai_right p {
+    font-family: San-Francisco-regular;
+    text-align: left;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+.boxapp_uudai_right ul {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding:0 0;
+}    
+.boxapp_uudai_outer{
+    display:flex;
+}
+.icon{
+    text-align: left;
+    max-width: 50%;
+    width: 62px;
+    height: 62px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.boxapp_uudai{
+    overflow: hidden;
+    padding-bottom:2%;
+}
+.item p{
+    text-align: justify;
+}
+.bg_color{
+    background-color:#eaedff;
+    padding-top:2%;
+}
+.boxapp_uudai_right ul li {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.boxapp_uudai2{
+    overflow: hidden;
+    padding-bottom:2%; 
+}
+.boxapp_uudai2 ul {
+    margin-top: 10%;
+}
+.boxapp_uudai_right ul {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.boxapp_uudai_right ul li {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}   
+.boxapp_uudai2 .boxapp_uudai_right li span {
+    font-weight: 700;
+}
+.boxapp_uudai_right ul li span {
+    font-family: San-Francisco-regular;
+    display: inline-block;
+    vertical-align: middle;
+}    
+.boxapp_uudai2 .boxapp_uudai_right li strong {
+    font-family: San-Francisco-regular;
+    font-weight: 300;
+    font-size: 18px;
+}    
+.chplay{
+    width: 70%;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.tab_container{
+    text-align: center;
+}
+.tab button:hover{
+    transform: scale(1.09);
+}
+.tab button.active{
+    transform: scale(1.1) ;
+}
+.membercard{
+    width: 90%;
+    margin:5px 10px;
+}
+.bronzeimg{
+    border-radius: 18%;
+}
+.silverimg{
+    border-radius:15%;
+}
+.goldimg{
+    border-radius:15%;
+}
+.box{
+    background-color: #cbe4ff;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 25px;
+}
+.boxdownapp_ctent h1{
+    color:#0052aa;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding:0 auto;
+    left:0;
+}    
+.slick-slide{
+    height: auto;
+}
+.sticky + .content {
+    padding-top: 60px;
+}    
+.container_fixed h2{
+    color:#0052aa
+}
+.chplay{
+    width: 100%;
+    max-width: 400px;
+}
+.appstore{
+    width: 100%;
+    max-width: 470px;
+}
